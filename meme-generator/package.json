@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "overrides": {
-    "ajv": "^6.12.6"
+    "ajv": "^8.0.0"
   },
   "dependencies": {
     "@testing-library/dom": "^9.3.3",
