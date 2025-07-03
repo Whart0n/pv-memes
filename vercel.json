@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/meme-generator/index.html" }
+  ],
+  "buildCommand": "cd meme-generator && npm install && npm run build",
+  "outputDirectory": "meme-generator/build",
+  "framework": "create-react-app"
+}

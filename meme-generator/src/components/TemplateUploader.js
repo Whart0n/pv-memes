@@ -35,7 +35,7 @@ const TemplateUploader = ({ onTemplateUploaded, authToken }) => {
       const formData = new FormData();
       formData.append('memeTemplate', file);
 
-      const response = await fetch('http://localhost:5000/api/upload', {
+      const response = await fetch(`${process.env.REACT_APP_API_URL}/api/upload`, {
         method: 'POST',
         headers: {
           'Authorization': `Bearer ${authToken}`
